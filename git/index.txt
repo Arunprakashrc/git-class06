@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int age;
+    printf("Please enter your age: ");
+    fflush(stdout);
+    scanf("%d", &age);
+    printf("Your age is: %d\n", age);
+    fflush(stdout);
+    return 0;
+}
